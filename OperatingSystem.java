@@ -18,6 +18,9 @@ public class OperatingSystem {
         // TODO code application logic here
         BankersAlgo banker=new BankersAlgo();
         banker.useBanker();
+        
+        PriorityScheduling priority=new PriorityScheduling();
+        priority.findPriority();
     }
     
 }
